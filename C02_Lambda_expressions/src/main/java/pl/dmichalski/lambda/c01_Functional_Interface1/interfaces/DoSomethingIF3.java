@@ -1,4 +1,4 @@
-package pl.dmichalski.c01_Functional_Interface1.interfaces;
+package pl.dmichalski.lambda.c01_Functional_Interface1.interfaces;
 
 /**
  * Author: Daniel

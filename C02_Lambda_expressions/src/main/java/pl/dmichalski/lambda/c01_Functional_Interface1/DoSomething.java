@@ -1,7 +1,7 @@
-package pl.dmichalski.c01_Functional_Interface1;
+package pl.dmichalski.lambda.c01_Functional_Interface1;
 
-import pl.dmichalski.c01_Functional_Interface1.interfaces.DoSomethingIF;
-import pl.dmichalski.c01_Functional_Interface1.interfaces.DoSomethingIF2;
+import pl.dmichalski.lambda.c01_Functional_Interface1.interfaces.DoSomethingIF;
+import pl.dmichalski.lambda.c01_Functional_Interface1.interfaces.DoSomethingIF2;
 
 /**
  * Author: Daniel

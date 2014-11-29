@@ -1,4 +1,4 @@
-package pl.dmichalski.c03_Lambda_Expression_in_JavaFX_App;
+package pl.dmichalski.lambda.c03_Lambda_Expression_in_JavaFX_App;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

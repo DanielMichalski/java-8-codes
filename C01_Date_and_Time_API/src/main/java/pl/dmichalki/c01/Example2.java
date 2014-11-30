@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 /**
  * Author: Daniel
  */
-public class SecondExample {
+public class Example2 {
 
     public boolean idTodayAfterTommorrow() {
         LocalDate today = LocalDate.now();

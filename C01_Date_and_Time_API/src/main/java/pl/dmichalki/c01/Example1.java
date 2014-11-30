@@ -5,7 +5,7 @@ import java.time.*;
 /**
  * Author: Daniel
  */
-public class FirstExample {
+public class Example1 {
 
     public LocalDate getHenryBirthday() {
         return LocalDate.of(1491, Month.JUNE, 28);

@@ -25,6 +25,7 @@
         <module>C01_Date_and_Time_API</module>
         <module>C02_Lambda_expressions</module>
         <module>C03_Streams_API</module>
+        <module>C04_Functional_programming</module>
     </modules>
 
 </project>

@@ -10,9 +10,9 @@ public class Bank {
     public static void main(String[] args) {
         Bank bank = new Bank();
         Customer customer = new Customer("039-55-1743", 15000.0);
-        bank.updateBalance(customer, c -> c.setBalance(c.getBalance()+2000.0));
+        bank.updateBalance(customer, c -> c.setBalance(c.getBalance() + 2000.0));
         System.out.println("------------------------------------");
-        bank.updateBalance(customer, c -> c.setBalance(c.getBalance()-500.0));
+        bank.updateBalance(customer, c -> c.setBalance(c.getBalance() - 500.0));
     }
 
     public void updateBalance(Customer customer, Consumer<Customer> consumer) {

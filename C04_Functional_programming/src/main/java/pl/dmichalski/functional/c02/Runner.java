@@ -2,6 +2,8 @@ package pl.dmichalski.functional.c02;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 /**
  * Find the double of the first even number greater than 3
@@ -17,9 +19,13 @@ public class Runner {
     }
 
     private static void java8Way(List<Integer> values) {
+
+        Predicate<Integer> isGreaterThen3 = e -> e > 3;
+        Function<Integer, Predicate<Integer>> isGreaterThan = pivot -> number -> number > pivot;
+
         System.out.println(
                 values.stream()
-                        .filter(Runner::isGreaterThan3)
+                        .filter(isGreaterThan.apply(3))
                         .filter(Runner::isEven)
                         .map(Runner::doubleIt)
                         .findFirst()

@@ -8,6 +8,14 @@
     <artifactId>java-8-codes</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>C01_Date_and_Time_API</module>
+        <module>C02_Lambda_expressions</module>
+        <module>C03_Streams_API</module>
+        <module>C04_Functional_programming</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
@@ -18,14 +26,8 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin></plugins>
+            </plugin>
+        </plugins>
     </build>
-
-    <modules>
-        <module>C01_Date_and_Time_API</module>
-        <module>C02_Lambda_expressions</module>
-        <module>C03_Streams_API</module>
-        <module>C04_Functional_programming</module>
-    </modules>
 
 </project>

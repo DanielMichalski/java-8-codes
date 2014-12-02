@@ -1,6 +1,5 @@
 package pl.dmichalski.functional.c01_PrimeNumbers;
 
-import java.util.function.Predicate;
 import java.util.stream.IntStream;
 
 /**

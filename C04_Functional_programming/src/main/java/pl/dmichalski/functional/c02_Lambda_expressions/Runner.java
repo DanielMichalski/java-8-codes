@@ -1,4 +1,4 @@
-package pl.dmichalski.functional.c02;
+package pl.dmichalski.functional.c02_Lambda_expressions;
 
 import java.util.Arrays;
 import java.util.List;
